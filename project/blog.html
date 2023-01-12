@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="font/css/font-awesome.min.css">
+   <title>Educa Tech | Website</title>
+   <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+   <!-- Navigation -->
+
+   <nav>
+      <img src="img/logo.svg" alt="">
+      <div class="navigation">
+         <ul class="nav-bar">
+            <i id="menu-close" class="fa fa-times"></i>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a class="active" href="blog.html">Blog</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="contact.html">Contact</a></li>
+         </ul>
+         <img class="menu-btn" src="img/menu.png" alt="">
+      </div>
+   </nav>
+
+   <!-- Home -->
+
+   <section id="about-home">
+      <h2>Blog/</h2>
+   </section>
+
+   <section id="blog-container">
+      <div class="blogs">
+         <div class="post">
+            <img src="img/b1.jpg" alt="">
+            <h3>Learn Web Development In The Easiest Way</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam qui, quia obcaecati quod consequatur
+               animi sapiente nostrum, commodi omnis tempora illo. Commodi dolorum harum. Lorem ipsum dolor sit amet
+               consectetur adipisicing elit. Corrupti nesciunt enim alias illum qui, ullam sint voluptatem.</p>
+            <a href="post.html">Read More</a>
+         </div>
+         <div class="post">
+            <img src="img/b2.jpg" alt="">
+            <h3>Learn Web Development In The Easiest Way</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam qui, quia obcaecati quod consequatur
+               animi sapiente nostrum, commodi omnis tempora illo. Commodi dolorum harum. Lorem ipsum dolor sit amet
+               consectetur adipisicing elit. Corrupti nesciunt enim alias illum qui, ullam sint voluptatem.</p>
+            <a href="post.html">Read More</a>
+
+         </div>
+         <div class="post">
+            <img src="img/b3.jpg" alt="">
+            <h3>Learn Web Development In The Easiest Way</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam qui, quia obcaecati quod consequatur
+               animi sapiente nostrum, commodi omnis tempora illo. Commodi dolorum harum. Lorem ipsum dolor sit amet
+               consectetur adipisicing elit. Corrupti nesciunt enim alias illum qui, ullam sint voluptatem.</p>
+            <a href="post.html">Read More</a>
+
+         </div>
+         <div class="post">
+            <img src="img/b4.png" alt="">
+            <h3>Learn Web Development In The Easiest Way</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam qui, quia obcaecati quod consequatur
+               animi sapiente nostrum, commodi omnis tempora illo. Commodi dolorum harum. Lorem ipsum dolor sit amet
+               consectetur adipisicing elit. Corrupti nesciunt enim alias illum qui, ullam sint voluptatem.</p>
+            <a href="post.html">Read More</a>
+         </div>
+      </div>
+      <div class="cate">
+         <h2>Categories</h2>
+         <hr>
+         <a href="#">Web Developement</a>
+         <hr>
+         <a href="#">Web Design</a>
+         <hr>
+         <a href="#">App Developement</a>
+         <hr>
+         <a href="#">Frontend Web</a>
+         <hr>
+         <a href="#">Python Programming</a>
+         <hr>
+         <a href="#">JavaScript Hack</a>
+         <hr>
+      </div>
+   </section>
+
+   <section id="footer">
+      <div class="footer-col">
+         <h3>Top Products</h3>
+         <li>Manage Reputation</li>
+         <li>Power Tools</li>
+         <li>Managed Website</li>
+         <li>Marketing Service</li>
+      </div>
+      <div class="footer-col">
+         <h3>Quick Links</h3>
+         <li>Jobs</li>
+         <li>Brands Assets</li>
+         <li>Investor Relations</li>
+         <li>Terms of Service</li>
+      </div>
+      <div class="footer-col">
+         <h3>Features</h3>
+         <li>Manage Reputation</li>
+         <li>Power Tools</li>
+         <li>Managed Website</li>
+         <li>Marketing Service</li>
+      </div>
+      <div class="footer-col">
+         <h3>Resources</h3>
+         <li>Guides</li>
+         <li>Research</li>
+         <li>Experts</li>
+         <li>Marketing Service</li>
+      </div>
+
+      <div class="footer-col">
+         <h3>Newsletter</h3>
+         <p>You can trust us. we only send promo offers, </p>
+         <div class="subscribe">
+            <input type="text" placeholder="Your Email Address">
+            <a href="#" class="yellow">SUBSRCIBE</a>
+         </div>
+      </div>
+
+      <div class="copyright">
+         <p>Copyright &COPY;2022 All rights reserved | This template is made by EjiAdek</p>
+         <div class="pro-links">
+            <i class="fa fa-facebook-f"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+         </div>
+      </div>
+   </section>
+
+   <script>
+      const menuClose = document.querySelector('#menu-close');
+      const menuShow = document.querySelector('.menu-btn');
+      const navLink = document.querySelector('.nav-bar');
+
+      menuShow.addEventListener('click', () => {
+         navLink.style.right = "0px";
+      })
+      menuClose.addEventListener('click', () => {
+         navLink.style.right = "-220px";
+      })
+   </script>
+</body>
+
+</html>
